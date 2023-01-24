@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/2c/01/a5/2c01a5d08f6df69923554e45da4050d8.jpg");
+    background-size: cover;
+    font-family: Cantarell,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    text-shadow: 0 0 10px black;
+}
+
+.racer-body {
+    width: 250px;
+    background: white;
+    border: 5px solid blue;
+    border-radius: 10px;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-shadow: 0 0 10px black;
+}
+
+#click-btn {
+    background: darkred;
+}
+
+#start-btn {
+    background: darkgreen;
+}
+
