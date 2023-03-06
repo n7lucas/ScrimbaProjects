@@ -1,0 +1,174 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #F3E7CE;
+}
+
+header {
+display: flex;
+height:67px;
+margin-left: 0px;
+margin-top: 0px;
+border-bottom: 1px solid #C6C6C6;
+padding: 15px 15px;
+justify-content: space-between
+}
+
+main {
+    margin: 10px 0;
+
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+    background: white;
+}
+
+
+.logo {
+    background-image: url("images/logo.png");
+    background-size: cover;
+    width: 150px;
+    height: 70px;
+}
+
+.profilepic {
+    background: url(https://images.tcdn.com.br/img/img_prod/1050053/180_dollynho_lacrador_225_1_665a62787b2e451c7f4815491ebb13a0.jpg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 360px;
+}
+
+.boldfont {
+    font-weight: bold;
+}
+
+.name-country {
+    margin-top: -12px;
+    padding-left: 8px;
+}
+
+.country {
+    margin-top: -12px;
+}
+
+.profile-info {
+    display: flex;
+    background: white;
+    padding: 15px 15px;
+}
+
+.postprofile-pic {
+    background: url(images/avatar-vangogh.jpg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 360px;
+
+}
+
+.newpost {
+    background: url(images/post-vangogh.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.like {
+    background: url(images/icon-heart.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.comment {
+    background: url(images/icon-comment.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.message {
+
+    background: url(images/icon-dm.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.iteration {
+    margin: 0 0px
+}
+
+.iter-box {
+    margin-left: -5px;
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+ 
+}
+
+.iter-sec {
+    margin: 20px 10px;
+
+}
+
+.color {
+    background: red;
+    width: 200px;
+    height: 200px;
+}
+
+
+.bottommargin {
+    background: #EDEDED;
+    width: 100%;
+    height: 40px;
+}
+
+/*animation stuff*/
+
+.like:hover {
+    animation: Shake 0.5s linear infinite;
+    background-color: red; 
+    border-radius: 360px;
+}
+
+.message:hover {
+    animation: Shake 0.5s linear infinite;
+    background-color: aqua; 
+    border-radius: 360px;
+}
+  
+  
+.comment:hover {
+    animation: Shake 0.5s linear infinite;
+    background-color: yellow; 
+    border-radius: 360px;
+}
+  
+  
+/*Using keyframes for shaking an image*/
+@keyframes Shake {
+    0% {
+        transform: rotate(5deg);
+    }
+  
+    25% {
+        transform: rotate(-6deg);
+    }
+  
+    50% {
+        transform: rotate(5deg);
+    }
+  
+    75% {
+        transform: rotate(-6deg);
+    }
+  
+    100% {
+        transform: rotate(5deg);
+    }
+}
