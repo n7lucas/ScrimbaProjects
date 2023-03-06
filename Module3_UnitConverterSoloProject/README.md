@@ -2,7 +2,7 @@
 
 <p>This is the solo project for module 3 carried out on the platform, the objective is to apply all the concepts learned in relation to the basics of Javascript combined with HTML and CSS.</p>
 
-<h2>Some of th concepts Learned in Moddule 3</h2>
+<h2>Some of th concepts Learned in Module 3</h2>
 <ul>
 <li>Basic Math using javascript</li>
 <li>Onclick Event Listener</li>
@@ -15,4 +15,4 @@
 <li>Event Listener, innerHtml, localStorage, truthy and falsy values, etc</li>
 </ul>
 
-<p>The final project itself is to develop a unit converter that converts numbers between metric and imperial units and does this through length, volume and mass. The project is deployed using netfly at </p>
+<p>The final project itself is to develop a unit converter that converts numbers between metric and imperial units and does this through length, volume and mass. The project is deployed using netfly at https://rainbow-entremet-2953be.netlify.app </p>
