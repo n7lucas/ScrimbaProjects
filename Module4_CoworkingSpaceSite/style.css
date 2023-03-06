@@ -1,0 +1,101 @@
+
+
+
+body {
+    margin:  0px;
+    padding: 0px;
+    font-family: 'Montserrat' ,'Franklin Gothic Medium', 'Arial Narrow', 
+    Arial, sans-serif;
+ 
+}
+header {
+    background-color: #282828 ;
+    padding: 1px;
+    color: whitesmoke;
+
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 25px;
+}
+
+
+h1 {
+    border: 2px solid red;
+    display: inline-block;
+    margin: 30px 25px ;
+    font-size: 40px;
+    font-weight: 400;
+   
+}
+
+button {
+    background-color: #cd6858;
+    border-style: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 20px 30px;
+}
+
+.Logo-word {
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+.logoimg {
+ width: 45px;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+
+.item-img {
+    width: 100%;
+    display: block;
+}
+
+
+.description-cotainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.exclusiveContainer {
+    position: relative;
+}
+
+.excluBtn {
+    position: absolute;
+    top: 0;
+}
+
+.menucontainer {
+   margin-left: auto;
+}
+
+.messagecontainer {
+    background-color:#cd6858 ;
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    cursor: crosshair;
+    width: 40px;
+    height: 40px;
+    box-shadow: 1px 1px 5px #999;
+}
+
+.fixedbtn {
+    margin: auto;
+    width: 80%;
+}
+
+

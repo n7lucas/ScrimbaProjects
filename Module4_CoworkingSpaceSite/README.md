@@ -1,0 +1,2 @@
+<h1>Project Module 4: Coworking Space Site</h1>
+<p>Project developed and improved during the last part of module 4, the focus was on learning and practicing with element positioning, especially using relative, absolute and fixed positions</p>
