@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    color: white;
+    background: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+}
+
+#greenT {
+    margin-top: -20px;
+    color: #4ADF86;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+}
+
+p {
+   color: #D5D4D8;
+
+}
+
+#line {
+    margin-top: 30px;
+    width: 450px;
+    border-bottom: 1px solid #2F3E53;
+    background: white;
+}
+button {
+    margin-top: 20px;
+    color: white;
+    background: #4ADF86;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+
+.password-C {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#pass-space, #pass-space2 {
+    background: #273549;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center; 
+    padding-bottom: 5px; 
+     
+}
+
+.output-container {
+    display: flex;
+    margin:15px auto;
+    gap: 3em;
+}
+
+.container-box {
+    width: 550px;
+    height: 550px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction:column;
+    background: #1F2937;
+}
+
+.container-content {
+
+    padding: 50px;
+}
+
+#pass-lenght {
+  margin-top: 40px;
+  margin-bottom: -5px;  
+  width: 30px;
+  border-radius: 5px;
+}
+
+#length-el {
+    background: #bda945;
+}
+
+.toggle-es {
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
