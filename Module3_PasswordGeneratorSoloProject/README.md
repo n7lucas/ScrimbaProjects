@@ -1,21 +1,6 @@
-# cod5e4d11903d50b05b43fd3a
+<h1>Solo Project Password Generator</h1>
 
-Quick start:
+<p>Project with the objective of developing a password generator, the objective is the use of random functions with javascript through Math.floor() and Math.random().</p>
 
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+<h2>Usage</h2>
+<p>Given an entry with the length of the desired password, the password containing letters, numbers and characters is returned, in addition to the options of not including numbers\ and or characters. The app is deployed at: https://jocular-duckanoo-82c096.netlify.app/ </p>
