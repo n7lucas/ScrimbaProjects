@@ -1,0 +1,110 @@
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.body-hero {
+    border: 1px solid #6DBD8B;
+    height: 400px;
+    background-image: url(https://conteudo.solutudo.com.br/wp-content/uploads/2021/12/assis-1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+#body-title1 {
+    margin-top: 80px;
+    background-color: #284B63;
+    width: 300px;
+}
+
+.body-title {
+    border-radius: 10px;
+    width: 400px;
+    border: 1px solid black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #3C6E71;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.body-me {
+    border: 1px solid #6DBD8B;
+    margin: 0;
+    text-align: center;
+    height: 500px;
+    background-color: #6DBD8B;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around   ;
+}
+
+#img1 {
+    background-image: url("volei.jpeg");
+    background-size: cover;
+}
+#img2 {
+    background-image: url("buracao.jpg");
+    background-size: cover;
+}
+#img3{
+    background-image: url("catedral.jfif");
+    background-size: cover;
+}
+
+.turistic-pic {
+    background-image: url("assis4.jfif");
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+
+}
+
+.coisas {
+    text-align: center;
+    width: 220px;
+}
+
+img {
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+#img1:hover {
+    background-image: url("volleygif.gif");
+}
+
+#img2:hover {
+    background-image: url("parquegif.gif");
+}
+
+#img3:hover {
+    background-image: url("igrejagif.gif");
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #269851;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.bottom-description {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    width: 150px;
+}

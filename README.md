@@ -1,20 +1,16 @@
-<h1>Career Path: Web Development</h1>
-Welcome to the Career Path: Web Development repository! This path covers a range of topics from essential concepts in CSS and JavaScript to advanced topics such as working with APIs and React. This repository is designated to my journey to learn FrontEnd on the Scrimba Platform (https://www.scrimba.com), at the end of each section a project to be carried our is designated, and here will be the place where these projects will be deposited.
+<h1>Solo Project Module 2: Hometown Homepage</h1>
 
-<h2>Repository Structure</h2>
-This repository is organized in such a way that each folder has a project carried out on the platform Scrimba, where each project will have its own README file and its hosting will be carried out on the netfly platform (https://www.netlify.com). Here's an overview of the topics covered in this career path:
+<p>This is the first final solo proejct carried out on the platform, the objective is to apply all the concepts learned ion relation to the basics of CSS and HTML.</p>
 
+<h2>Some of th concepts Learned in Moddule 2</h2>
 <ul>
-<li>1-Web Dev Basics</li>
-<li>2-Making Websites Interactive</li>
-<li>3-Essential CSS Concepts</li>
-<li>4-Essential JavaScript Concepts</li>
-<li>5-Responsive Design</li>
-<li>6-Next-level JavaScript</li>
-<li>7-Code Reviews</li>
-<li>8-Working with APIs</li>
-<li>9-Learn UI Design</li>
-<li>10-React Basics</li>
-<li>11-Advanced React</li>
-<li>12-Getting hired</li>
+<li>HTL tags</li>
+<li>image tags</li>
+<li>Anchor tags</li>
+<li>Document structure</li>
+<li>CSS concepts like margin, padding, inline vs block elements and flex-box</li>
+<li>input field, button</li>
+<li>Work with Google font to personalize our texts, text-shadow, etc</li>
 </ul>
+
+<p>The final project itself is to develop a business card for your hometown, in this case the city of Assis -SP, where I lived most of the time, was chosen.</p>
