@@ -15,4 +15,4 @@
 <li>Event Listener, innerHtml, localStorage, truthy and falsy values, etc</li>
 </ul>
 
-<p>The final project itself is to develop a unit converter that converts numbers between metric and imperial units and does this through length, volume and mass. The project is deployed using netfly at https://rainbow-entremet-2953be.netlify.app </p>
+<p>The final project itself is to develop a unit converter that converts numbers between metric and imperial units and does this through length, volume and mass. The project is deployed using netlify  at https://taupe-dango-dcc8c8.netlify.app/ </p>
