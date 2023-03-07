@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #8ACDEA;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    background: #DA96C8;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+input {
+    
+}
+
+.headerImg {
+   width: 20%;
+   
+} 
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    gap: 15px
+}
+
+.emotionsContainer {
+    display: flex;
+    flex-direction: column; 
+}
+
+.radiosBox {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 200px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.catContainer {
+    display: flex;
+    width: 320px;
+    height: 320px;
+    background: #3E79C7;
+    position: fixed; 
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.catImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border: 3px solid #DA96C8;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    margin: 0px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: #CC3E3E;
+    border: 2px solid black;
+
+}
+
+.closeCat {
+    display: none;
+}
+
+.checkBox {
+    margin-top: 10px;
+}
