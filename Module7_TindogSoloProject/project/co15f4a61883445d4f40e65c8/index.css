@@ -1,0 +1,112 @@
+
+body {
+    font-family:  'Poppins', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.pawCont {
+    width: 5.25em;
+    height: 2.625em;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(270deg, #FA695A 0%, #F83375 100%);
+}
+
+.userCont {
+    height: 2.5em;
+    width: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.badgeContainer {
+    width: 10.375em;
+    height: 6.18em;
+    position: absolute;
+    left: 1.25em;
+    top: 3.125em;
+    transform: rotate(-30deg);
+}
+
+
+.badgeContainerLike {
+    display: none;
+}
+
+.badgeContainerNope {
+    display: none;
+}
+
+
+.photoContainer {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.userPhoto {
+    width: 30em;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.userdescription {
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+    color: white;
+    line-height: 0.8rem;
+    text-align: left;
+}
+
+.boxIterContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.likeContainer, .nopeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    background: white;
+}
+
+.disablebutton {
+     pointer-events: none;
+}
+
+.likeContainer:hover {
+    background: #DBFFF4;
+}
+
+.nopeContainer:hover {
+    background: #FFE7EF;
+}
+
+i{
+    font-size: 2.125em;
+}
+
+.endPage {
+    text-align: center;
+}
