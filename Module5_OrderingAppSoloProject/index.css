@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    font-family: Smythe, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: whitesmoke;
+} 
+
+header {
+    background: url(images/logo.jfif);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 167px;
+    margin: auto;
+}
+
+h1 {
+width: 170px;
+height: 24px;
+font-size: 39px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+header p {
+width: 275px;
+height: 8px;
+font-size: 22px;
+line-height: 14px;
+color: #FFFFFF;
+}
+
+span {
+      color: #8B8B8B;
+}
+
+form{
+    margin: auto;
+}
+
+input {
+    width: 475px;
+    height: 50px;
+    margin-bottom: 20px; 
+  
+}
+
+
+.fontAttr {
+font-family: 'Smythe';
+font-style: normal;
+font-weight: 400;
+}
+
+.headerContainer {
+    margin: 30px auto 0 25px;;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+
+.itemContainer{
+    width: 508px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto 100px auto;
+}
+
+.itemInfo {
+    display: flex;
+}
+
+.itemDescription h2 {
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 17px;
+     margin-bottom: -10px 
+}
+
+.itemDescription p {
+  font-size: 20px;
+ line-height: 24px;
+}
+
+
+
+
+.food {
+width: 70px;
+height: 89px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 79px;
+/* or 125% */
+
+margin: auto 40px auto 30px;
+letter-spacing: -0.02em;
+opacity:0.72;  
+}
+
+.itemContainer:hover .food { opacity: 1;  }
+
+.addBtn {
+    margin: auto 3px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    font-size: 40px;
+     cursor: pointer;
+}
+
+.bottomLine {
+    border-bottom:  1px solid #D2D2D2;;
+    width: 504px;
+    height: 0px;
+    margin: -70px auto 0 auto;
+}
+
+.OrderLine {
+    border-bottom: 2px solid black;;
+    width: 504px;
+    height: 0px;
+    margin: 30px auto 0 auto;
+
+}
+
+
+.orderContainer {
+    text-align: center;
+}
+
+.hideTotal {
+      display: none;
+}
+
+.orderPriceContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+    width: 508px;
+}
+
+.orderRemoveContainer {
+    display: flex;   
+}
+
+.removeBtn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    width: 77px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin: auto;
+    /* or 200% */
+
+
+    color: #BBBBBB;
+}
+
+
+.priceContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 508px;
+}
+
+.orderBtn {
+    width: 508px;
+    height: 60px;
+    background: #16DB99;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.formContainer{
+    display: none; /*Alterar para flex em vez de tirar o none para aparecer*/
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    border: 2px red solid;
+    width: 500px;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+/*uso com o botao para esconder o form, esta embaixo pela ordem de procedencia*/
+.displayswitch {
+    display: flex;
+}
+
+
+.payBtn {
+    width: 475px;
+    height: 60px;
+    background: #16DB99;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formContainer p {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.messageContainer {
+    width: 504px;
+    height: 120px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    display: flex;
+    margin: 40px auto 0 auto;
+}
+
+
+.messageContainer p {
+    font-size: 32px;
+    line-height: 17px;
+    color: #065F46;
+    margin: auto;
+}
