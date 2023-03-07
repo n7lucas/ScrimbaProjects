@@ -1,0 +1,178 @@
+
+
+@font-face {
+   font-family: 'army';
+   src: url('ARMYD___.TTF') format('truetype');
+}
+
+
+h3, p {
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px black;
+}
+p {
+font-family: 'army', sans-serif;
+}
+
+body {
+    margin-top: 6.5em;
+    background: url('purplespace.jpg');
+    background-size: cover;
+    font-family: 'army';
+
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    
+}
+
+a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: red;
+}
+
+footer {
+    display: flex;
+}
+/*
+.menuContainer {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 11.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    gap: 1em;
+}
+*/
+
+.menuContainer {
+    width: 400px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    box-shadow: inset 0px 0px 6px 2px rgba(100,100,100,0.2),
+    0px 0px 10px rgba(117,182,214,0.2);
+}
+
+
+.logoimage {
+    width: 50%;
+}
+.btnTrans {
+    background: #00b4d8;
+    padding: 0.2em;
+    border-radius: 10px;;
+}
+
+.characterContainer {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    flex-direction: column;
+    width: 250px;
+    background: red;
+    align-items: center;
+    box-shadow: inset 0px 0px 6px 2px rgba(100,100,100,0.2),
+    0px 0px 10px rgba(117,182,214,0.2);
+}   
+
+.caracterName {
+    margin: 0.2em;
+}
+
+.versuslogo {
+    width: 15%;
+}
+
+.characterfig {
+    width: 12.5em;
+    height: 12.5em;
+    border-radius: 15px;
+    margin: 0.2em;
+}
+
+.healthbar {
+    margin: auto;
+    width: 100%;
+    border-bottom: 0.5em solid green;
+    margin-bottom: 1em;
+}
+
+.diceContainer {
+    background: #03045e;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    gap: 0.5em;
+}
+
+.diceItem {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0.5em;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px ;
+}
+
+.whitefont {
+    color:white
+}
+
+
+.btnAttack {
+    font-family: 'army';
+    font-size: 2rem;
+    font-weight: bold;
+    background: yellow;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.winContainer {
+    text-align: center;
+}
+
+.winContainer img {
+    width: 30.5em;
+    height: 30.5em;
+}
+
+.winContainer  h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.winContainer a {
+    color: white;
+    border-bottom: 1px solid white;
+    text-shadow: 1px;
+}
+
+/*.menuContainer {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 11.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    gap: 1em;
+}*/
