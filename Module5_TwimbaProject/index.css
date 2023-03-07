@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+    color: #3E79C7;
+    margin-left: 25px; 
+}
+
+img {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+textarea {
+     resize: none;
+     width: 55%;
+     height: 70px;
+     border: none;
+     text-align: center;
+}
+
+button {
+    background: #4588DF;
+    width: 80%;
+    margin-left: 40px;
+    margin-right: auto;
+    border-radius: 30px;
+    height: 40px;
+    border:  none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+main, header {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.userContainer {
+   display: flex;
+   justify-content: left;
+   margin-left: 25px;
+   gap: 10px;
+}
+
+.bottomline {
+    border-bottom: 1px solid #A7A9AB;
+    margin-top: 20px;
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+.iteractionContainer {
+    display: flex;
+    justify-content: left;
+    margin-left: 25px;
+    gap: 10px;
+}
+
+.tweetContainer {
+    width: 60%;
+    
+    
+}
+
+.username {
+    margin-top: 0px;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: left;
+    gap: 60px;
+    
+}
+
+.iconfont {
+    font-size: 13px;
+}
+
+.retweetContainer {
+    gap: 20px;
+}
+
+i {
+     font-size: 13px;
+}
+
+span {
+    color: black;
+    padding-left: 5px
+}
+
+
+.replyPlace {
+     display: flex;
+    justify-content: center;
+}
+
+.bottomlinereply {
+    border-bottom: 1px solid #A7A9AB;
+    margin-top: 20px;
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+.liked {
+    color: red;     
+}
+
+.retweeted {
+    color: greenyellow
+}
+
+.show {
+    display: none;
+}
