@@ -1,0 +1,253 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', cursive;
+    background: #FAFAFA;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+footer {
+    background: #202020;
+    color: #ECECEC;
+    padding: 2.5em;
+    text-align: center;
+    
+}
+
+footer p {
+    margin: 0;
+}
+
+/*""""""""""""
+  Typography
+"""""""""""""*/
+.header-typo {
+    color:white;
+    font-weight: 400;
+
+}
+
+.header-typo h1 {
+    font-size: 2rem ;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.25rem;
+    font-size: 1rem;
+    
+}
+.article-date {
+    font-weight: 700;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+a {   
+    font-weight: bold;
+    color:  black;
+    text-shadow: 1px 0
+}
+
+.header-typo a {
+    color: white;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+/* """""""""""
+    Containers
+"""""""""""*/
+
+.nav-small {
+    display: flex;
+    align-items: center;
+    gap: 2em
+}
+
+.nav-big {
+    display: none;
+}
+
+.nav-small :hover {
+    cursor: pointer;
+}
+
+header {
+    background: white;
+}
+
+.menu-click {
+    position: absolute;
+    background: #202020;
+    width: 6.25em;
+    height: 100%;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.show-menu {
+    display: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    gap: 2em;
+    color: white;
+    background: #202020;
+}
+
+
+.header-article {
+    background: url("/images/frontfig2.png");
+    background-size: cover;
+    max-width: 100%;
+    height: minmax(1fr, 300px);   
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1em;
+
+}
+
+
+.article-main {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    grid-template-areas: "image image"
+                         "date . "
+                         "title ."
+                         "text text";
+    padding: 2em 1em 0 1em;  
+     
+}
+
+.article-img { 
+    grid-area: image;
+    border-radius: 5px;
+    }
+    
+.article-date {grid-area: date;  }
+
+.article-title {
+    grid-area: title;
+    margin: 0;
+}
+.article-body {
+    grid-area: text;
+    margin-top: 0.5em;
+ }
+ 
+ .more-container {
+     text-align: center;
+     padding-top: 1em; 
+     padding-bottom: 3em;
+ }
+
+.articles-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+   margin-left:2em;
+   margin-right: 2em  
+}
+
+
+
+/*Article read stuff*/
+
+.article-post, .profile-article {
+    padding: 1em 1em;
+}
+
+.article-post img {
+  border-radius: 5px;
+}
+
+.recent-container {
+   text-align: center;
+}
+
+
+
+/* About me CSS*/
+
+.profilepic {
+
+    border-radius:50%;
+    height: 11.25em;
+    width:  11.25em;
+}
+
+.about-grid-container {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-areas: "pic . ."
+                         "post post post"; 
+ column-gap: 1em;
+}
+
+.aboutpic {
+    grid-area: pic;
+
+}
+
+.about-grid {
+    grid-area: post;
+}
+
+/* Hide*/
+.showMore {
+    display: none;
+}
+/* Media for responsive layout*/
+
+
+@media (min-width: 670px) {
+   .about-grid-container {
+    grid-template-areas: "pic post post "; 
+ 
+    align-self: left;
+} 
+.text-article-container {
+    padding: 1em 3em;
+}
+
+.nav-small {
+    display: none;
+}
+.nav-big {
+    display: flex;
+    align-items: center;
+    gap: 2em
+}
+.menu-click {
+    display: none;
+}
+
+.header-article {
+    height: 30.5em;
+}
+
+}
+

@@ -1,0 +1,2 @@
+<h1>Module 6: Learning Journal</h1>
+<p>This is the final solo project of module 6 "Responsive Design" where the concepts learned along the way were applied, some of the concepts: Transform text, breakpoint for wider screen, view port units, box-sizing, CSS Grid, minmax(), fr unit, etc.</p>
