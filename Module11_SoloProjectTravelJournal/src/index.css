@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  padding-left: 0.5em;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.headerContainer {
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  color: white;
+  height: 3.4em;
+}
+
+
+
+.travelContainer {
+  display: flex;
+  padding: 4em 3em;
+  border: 1px solid #F5F5F5;
+
+}
+
+.picture {
+  width: 30vh;;
+  height: 40vh;
+  border-radius: 5px;
+}
+
+.mapContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.descriptionContainer{
+      padding-left: 1em;
+
+}
+
+.fa-location-dot {
+  color: #F55A5A;
+}
+
+.mapLink {
+  color: #918E9B;
+  font-size: 1rem;
+}
+
+.dateContainer {
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+.aboutContainer {
+  line-height: 1.2em;
+  font-size: 0.9rem;
+}
+
+@media (max-width:700px) {
+
+  .descriptionContainer {
+    line-height: 1.3em;
+    font-size: 0.5rem;
+  }
+
+  .locationCountry, .fa-location-dot, .dateContainer {
+    font-size: 0.8rem;
+  }
+}
+
