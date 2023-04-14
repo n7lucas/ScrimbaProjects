@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        <header>
+           <form id="colorForm">
+            <div class="seedcolor-container">
+                <label for="seedcolor">Color: </label>
+                <input type="color" name="seedcolor">
+            </div>
+            <select name="mode">
+                <option value="">--Choose a Scheme--</option>
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <div>
+            <label for="numcolor">nº Colors</label>
+            <input type="number" name="numcolor" value="5">
+        </div>
+            <button type="submit">Get color scheme</button>
+           </form>
+        </header>
+        <main>
+            <div class="colorsContainer" id="colorEl">
+             <h1>Choose a color  👨‍🎨</h1>
+            </div>   
+            <div class="colorHax" id="HaxEl">
+               
+            </div>
+        </main>
+    </div>
+        <script src="index.js"></script>
+    </body>
+</html>
