@@ -1,4 +1,4 @@
-import {catsData} from '/data.js'
+import {catsData} from './data.js'
 
 const EmoContainer = document.getElementById("emotionsContainer")
 const BtnSubmit = document.getElementById("submitBtn")
