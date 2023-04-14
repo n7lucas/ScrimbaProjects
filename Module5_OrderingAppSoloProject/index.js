@@ -149,7 +149,7 @@ const fullName = formData.get("userName")
 showTotal.innerHTML = `<div class="messageContainer">
                <p> Thanks, ${fullName}! Your order is on its way!</p>
              </div> 
-             <a href="./index.html">New Order</a>
+             <a class="link-neworder" href="./index.html">New Order</a>
 
 `
 formPopup.classList.toggle('displayswitch')

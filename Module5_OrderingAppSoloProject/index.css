@@ -1,7 +1,12 @@
+
+* {
+    box-sizing: border-box;
+  }
 body {
     margin: 0;
     font-family: Smythe, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: whitesmoke;
+    background: url(images/fundobranco.avif)
 } 
 
 header {
@@ -64,6 +69,9 @@ font-weight: 400;
     display: flex;
     justify-content: space-between;
     margin: 40px auto 100px auto;
+    background-color: whitesmoke;
+    border: black 1px solid;
+    border-radius: 5px;
 }
 
 .itemInfo {
@@ -86,29 +94,29 @@ font-weight: 400;
 
 
 .food {
-width: 70px;
-height: 89px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 79px;
-/* or 125% */
+    width: 70px;
+    height: 89px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 79px;
+    /* or 125% */
 
-margin: auto 40px auto 30px;
-letter-spacing: -0.02em;
-opacity:0.72;  
+    margin: auto 40px auto 30px;
+    letter-spacing: -0.02em;
+    opacity:0.72;  
 }
 
 .itemContainer:hover .food { opacity: 1;  }
 
 .addBtn {
-    margin: auto 3px;
+    margin: auto 30px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: 1.5px solid #DEDEDE;
+    border: 1.5px solid black;
     font-size: 40px;
-     cursor: pointer;
+    cursor: pointer;
 }
 
 .bottomLine {
@@ -184,6 +192,18 @@ opacity:0.72;
     color: white;
     margin-top: 50px;
     cursor: pointer;
+}
+
+.link-neworder {
+    width: 508px;
+    height: 30px;
+    background: #16DB99;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 100px;
+    cursor: pointer;
+    padding: 10px 20px
 }
 
 .formContainer{
