@@ -120,7 +120,7 @@ header {
 
 
 .header-article {
-    background: url("/images/frontfig2.png");
+    background: url("../images/frontfig2.png");
     background-size: cover;
     max-width: 100%;
     height: minmax(1fr, 300px);   
@@ -209,7 +209,7 @@ header {
 
 .aboutpic {
     grid-area: pic;
-
+    border: 2px solid black;
 }
 
 .about-grid {

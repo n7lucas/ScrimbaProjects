@@ -1,4 +1,4 @@
-import {data} from "/articleData.js"
+import {data} from "./articleData.js"
 const articleEl = document.getElementById('containerEl')
 const moreEl = document.getElementById('morelink')
 const seeMoreEl = document.getElementById('seeMoreLink')
