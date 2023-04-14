@@ -4,7 +4,7 @@
 
 <ul>
 <li>Things to implement in the future</li>
-<li>About page</li>
+<li>About page</li> Done!
 <li>damage animation</li>
 <li>difficult level</li>
 <li>player selection</li>
