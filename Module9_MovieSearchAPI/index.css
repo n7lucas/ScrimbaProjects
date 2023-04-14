@@ -1,0 +1,186 @@
+html, body {
+    margin: 0;
+    padding: 2;
+    background: #121212;
+    font-family: 'Inter', sans-serif;
+}
+    
+main {
+   padding: 1em 2em;
+}
+
+a {
+   text-decoration: none; 
+   color: white;
+   font-weight: bolder;
+}
+
+header {
+    position: relative;
+    background-image: url('./images/headermovie.png');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    color: white;
+    text-shadow: 1px 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.degraded-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(100, 255, 255, 0.2));
+  
+}
+
+
+
+/* Typography*/
+
+h2 {
+    font-size: 1.125rem;
+}
+
+i {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* Search Form*/
+form { 
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    width: 100%;
+}
+
+button, input {
+    padding: 9px 11px 9px 17px;
+    color:white;
+    }
+
+input {
+  background: #2E2E2F;  
+  width: 60%;
+  border-radius: 6px 0px 0px 6px;
+}
+
+button {
+    text-align: center;
+    background: #4B4B4B;
+    width: 20%;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/*Begin work with classes*/
+
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.watch--btn:active::after {
+    content: "Added";
+    color: green;
+}
+/*Movie box style*/
+.movies-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    /*Color when there are not films*/
+}
+
+
+.movieContainer {
+    color: white;
+    display: flex;
+    padding-bottom: 1em;
+    border-bottom: 3px solid #2C2C2C;
+    gap: 1em;
+}
+
+.poster {
+    width: 99px;
+    height: 150px;
+    border-radius: 5px;
+
+}
+
+
+
+.titleContainer h2, p {
+    margin-bottom: 0.2em
+}
+
+.titleContainer {
+    display: flex; 
+
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 0.75rem;
+}
+.infoContainer i {
+    font-size: 1.2rem;
+}
+.btnWatch {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.description {
+    font-size: 0.875rem;
+    color: #A5A5A5;
+    text-align: left;
+}
+
+.addHighlight {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    cursor: pointer;
+ }
+ 
+ .addHighlight i,a {
+     line-height: 2.5rem;
+ }
+ 
+ .addHighlight a, i{
+     font-weight: bolder;
+     color: white;
+     font-size: 1rem;
+ }
+
+ .emptyContainer {
+    margin-top: 7.5em;
+    text-align: center;
+    color: #2E2E2F;
+    
+}
+
+.fa-film {
+    color: #2E2E2F;
+    font-size: 3rem;
+}
+
+#watchLink:hover {
+    border-bottom: 1px solid white;
+} 
