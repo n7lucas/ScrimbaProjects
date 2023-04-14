@@ -1,0 +1,121 @@
+html,body{
+    margin: 0; /* Space from this element (entire page) and others*/
+    padding: 0; /*space from content and border*/
+    overflow:hidden;
+    border-bottom: 5px solid #16BFFD;
+    display:block;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+   
+}
+
+.container {
+    width: 100%;
+
+}
+
+/*work header distribution*/
+
+header {
+    background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+    margin: 0;
+}
+
+select {
+    width: 15.625em;
+    height: 42px;  
+    border-radius: 5px;
+}
+
+button {
+    width: 120px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+}
+
+input {
+    width:15vh;
+    height: 42px;
+    box-sizing: border-box;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.colorsContainer {
+    display: flex;
+    min-height: 70vh;
+    background: #16BFFD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.colorsContainer h1 {
+    margin: auto;
+}
+
+.colorHax h1 {
+    margin: auto;
+    color: black;
+}
+
+.colorHax {
+    display: flex;
+    justify-content: space-around;
+    
+ 
+}
+
+.colorSize {
+    width: 50vw;
+}
+
+
+h4 {
+    background: white;
+    min-height: 35vw;
+}
+
+.seedcolor-container {
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 820px) {
+    /* styles for devices with a maximum width of 768px */
+
+  
+    input {
+        width:5vh;
+        height: 42px;
+        box-sizing: border-box;
+    }
+
+    select {
+        width:10vh;
+        height: 42px;
+        box-sizing: border-box;
+    }
+
+}
+
