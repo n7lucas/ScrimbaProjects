@@ -2,7 +2,7 @@ const formColor = document.getElementById("colorForm")
 const colorEl = document.getElementById("colorEl")
 const colorHaxEl = document.getElementById("HaxEl")
 let ArrColor = []
-
+let itsActivate = false
 formColor.addEventListener("submit", (e) => {
     e.preventDefault()
   const form = new FormData(formColor)  
@@ -25,15 +25,18 @@ function getColor (color, mode,numC) {
 }
 
 function render () {
+    itsActivate = true
     let htmlC = ""
     let htmlH = ""
     for (let item of ArrColor){
-        htmlC += `<div style="background-color:${item}" class="colorSize"></div>`
-        htmlH += `<h4>${item}</h4>`
+        htmlC += `<div id="color-palette" style="background-color:${item}" class="colorSize"><p class="color-hover ">${item}</p></div>`
+        //htmlH += `<p id=bottom-hex>${item}</p>`
     }
     colorEl.innerHTML = htmlC
-    colorHaxEl.innerHTML = htmlH
+   // ArrColor.length < 40 ? (colorHaxEl.innerHTML = htmlH) :colorHaxEl.innerHTML = ""
+    console.log(ArrColor.length)
     ArrColor = []
 }
+
 
 

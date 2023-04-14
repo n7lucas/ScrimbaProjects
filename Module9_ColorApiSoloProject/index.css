@@ -42,12 +42,14 @@ button {
     border-radius: 5px;
     border: none;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 input {
     width:15vh;
     height: 42px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 
@@ -62,7 +64,7 @@ main {
 
 .colorsContainer {
     display: flex;
-    min-height: 70vh;
+    min-height: 100vh;
     background: #16BFFD;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -80,10 +82,36 @@ main {
 
 .colorHax {
     display: flex;
-    justify-content: space-around;
-    
+   flex-direction: column;
+   justify-content: space-around;
+    writing-mode: vertical-rl; 
+    text-orientation: upright;
  
 }
+
+.color-hover{
+   writing-mode: vertical-rl; 
+   text-orientation: upright;
+   height: 100%;
+   color: rgba(0,0,0,0);
+   text-align: center;
+}
+
+#color-palette{
+    display: flex;
+    justify-content: center;
+}
+
+.color-hover:hover {
+    color: white;
+   
+    color: white; text-shadow: 1px 1px 1px black;
+}
+
+.remove--bottom--hex {
+    color: rgba(0,0,0,0);
+}
+
 
 .colorSize {
     width: 50vw;
