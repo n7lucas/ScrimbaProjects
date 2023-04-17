@@ -84,7 +84,7 @@ button:focus-visible {
 .App {
   color: #293264;
   background-color: #EFF6FB;
-  width: 1400px;
+  width: 1300px;
   min-height: 950px;
   display: flex;
   justify-content: center;
@@ -95,7 +95,7 @@ button:focus-visible {
 .question--container {
   background:url('../data/background.jpg');
   background-size: cover;
-  width: 1400px;
+  width: 1300px;
   height: 950px;
   padding-top: 5em;
 }
