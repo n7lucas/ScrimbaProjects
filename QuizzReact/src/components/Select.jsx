@@ -71,7 +71,7 @@ export default function Select (props) {
                                 <option value="boolean">True/False</option>
 
                             </select>
-                            <button>Começar</button>
+                            <button>Start</button>
                         </form>
                         </div>
               
