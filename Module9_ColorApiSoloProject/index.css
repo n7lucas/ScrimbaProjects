@@ -18,8 +18,8 @@ html,body{
 
 header {
     background: #43cea2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -129,13 +129,13 @@ h4 {
 }
 
 
-@media screen and (max-width: 820px) {
+@media only screen and (max-width:850px){
     /* styles for devices with a maximum width of 768px */
 
   
     input {
-        width:5vh;
-        height: 42px;
+        width:7vh;
+        height: 22px;
         box-sizing: border-box;
     }
 
@@ -145,5 +145,42 @@ h4 {
         box-sizing: border-box;
     }
 
+    form {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 1em 0.5em;
+        margin: 0;
+    }
+
+    
+button {
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.seedcolor-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbercolor-container{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 1em;
+}
+
+label {
+    font-size: 0.8em;
+}
+
+    
 }
 
