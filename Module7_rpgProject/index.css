@@ -172,6 +172,7 @@ footer {
     text-shadow: 1px;
 }
 
+
 /*.menuContainer {
     background: white;
     display: flex;
@@ -183,3 +184,20 @@ footer {
     margin-right: 10em;
     gap: 1em;
 }*/
+
+@media only screen and (max-width:850px){
+
+    .game--table{
+       display: flex;
+       flex-direction: column;
+     }
+
+     button {
+        margin-top: 3em;
+     }
+
+     .winContainer img {
+        width: 300px;
+     }
+    
+}
