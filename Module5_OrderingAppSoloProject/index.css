@@ -266,3 +266,71 @@ font-weight: 400;
     color: #065F46;
     margin: auto;
 }
+
+
+
+@media only screen and (max-width:850px){
+    /* styles for devices with a maximum width of 768px */
+
+header {
+        background: url(images/logo.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 167px;
+        margin: auto;
+    }
+
+    .itemContainer{
+       display: flex;
+       justify-content: left;
+       font-size: 0.7em;
+       width: 55vh;
+    }
+
+    .itemInfo {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .itemInfo  h2{
+        font-size: 1.5em;
+    }
+
+    .itemInfo  span{
+        font-size: 1em;
+    }
+
+
+    .food{
+        font-size:4em;
+    }
+
+    .addBtn{
+        width: 0.8em;
+        height: 0.8em;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+#mainContainer {
+    margin-right: 10em;
+    
+}
+
+.orderBtn{
+    width: 55vh;
+    
+}
+
+.itemDescription{
+margin-left: -40;
+}
+
+
+
+}
