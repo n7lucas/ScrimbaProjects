@@ -173,13 +173,14 @@ button:focus-visible {
 
 
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width:850px){
   /* styles for devices with a maximum width of 768px */
+
   .start--container {
     background:url('../data/background2.jpg');
     background-size: cover;
     width: 320px;
-    height: 550px;
+    height: 590px;
   }
 
 
