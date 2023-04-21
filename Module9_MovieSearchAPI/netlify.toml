@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/watchList"
-  to = "/watchList.html"
+  to = "./watchList.html"
   status = 200
