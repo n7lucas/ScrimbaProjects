@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/watchList"
+  to = "/watchList.html"
+  status = 200
