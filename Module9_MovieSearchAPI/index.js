@@ -69,3 +69,11 @@ document.getElementById("watchLink").addEventListener("click", (e) => {
 
 } )
 
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        history.pushState({}, null, link.getAttribute('href'));
+      });
+    });
+  });
